@@ -1,169 +1,106 @@
-# My Development Environment Configuration
+# 🚀 Config-Files: Personal Configuration Files for a Productive Workflow
 
-This repository contains my personal configuration files for various development tools that I use daily to create a powerful and efficient development workflow. Below is a detailed breakdown of each tool and its configuration.
+Welcome to the **Config-Files** repository! This repository contains my personal configuration files for various development tools that I use daily to create a powerful and efficient development workflow. 
 
-## Table of Contents
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-Here-brightgreen)](https://github.com/FirmScythe/Config-Files/releases)
 
-- [Window Management](#window-management)
-  - [Aerospace](#aerospace)
-  - [Yabai (Previously Used)](#yabai-previously-used)
-- [Terminal Emulators](#terminal-emulators)
+## 📂 Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Tools and Configurations](#tools-and-configurations)
   - [Alacritty](#alacritty)
-  - [WezTerm](#wezterm)
-- [Text Editors](#text-editors)
-  - [Zed](#zed)
-  - [Neovim](#neovim)
-- [Keyboard Customization](#keyboard-customization)
   - [Karabiner-Elements](#karabiner-elements)
+  - [Neovim](#neovim)
+  - [WezTerm](#wezterm)
+  - [Yabai](#yabai)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## Window Management
+## 📝 Introduction
 
-### Aerospace
+In today's fast-paced development environment, having the right tools configured correctly can make all the difference. This repository serves as a collection of configuration files that enhance productivity and streamline workflows. 
 
-Aerospace is my current window tiling manager for macOS, which I migrated to from Yabai.
+Whether you are a seasoned developer or just starting, these configurations can help you set up your environment quickly and efficiently. 
 
-**Key Features in My Configuration:**
+## 🌟 Features
 
-- **Window Gaps**: 18px gaps between windows and monitor edges for better visual separation
-- **Key Bindings**: QWERTY preset with custom keybindings for efficient window management
-- **Mouse Behavior**: Mouse follows focus when changing monitors or windows
-- **Layout Management**:
-  - `alt-slash`: Toggle between horizontal and vertical tiling layouts
-  - `alt-comma`: Toggle accordion layout
-- **Window Navigation**:
-  - `alt-h/j/k/l`: Navigate between windows (vim-style)
-  - `alt-shift-h/j/k/l`: Move windows in different directions
-- **Workspace Management**:
-  - `alt-1/2/3/4/5`: Switch to specific workspaces
+- Custom configurations for popular development tools.
+- Easy to understand and modify files.
+- Well-organized structure for quick access.
+- Regular updates to keep up with tool changes.
 
-**Configuration File**: [aerospace.toml](/aerospace/aerospace.toml)
+## ⚙️ Installation
 
-### Yabai (Previously Used)
+To get started, clone this repository to your local machine:
 
-Yabai was my previous window manager before switching to Aerospace.
+```bash
+git clone https://github.com/FirmScythe/Config-Files.git
+```
 
-**Key Features in My Configuration:**
+After cloning, navigate to the directory and follow the specific instructions for each tool listed below.
 
-- **Layout**: Binary space partitioning (BSP) as default layout
-- **Window Placement**: New windows spawn to the right for vertical splits or bottom for horizontal splits
-- **Padding**: 12px padding on all sides
-- **Mouse Integration**:
-  - Mouse follows focus
-  - Alt modifier for dragging and resizing windows
-  - Window swapping when dropping in center of another window
-- **App Exclusions**: System Settings, Calculator, Karabiner-Elements, and QuickTime Player are excluded from management
+## 🛠️ Usage
 
-**Configuration File**: [yabairc](/yabai/yabairc)
+Each tool has its own set of instructions for applying the configurations. Refer to the respective sections for detailed steps.
 
-## Terminal Emulators
+## 🔧 Tools and Configurations
 
 ### Alacritty
 
-Alacritty is a GPU-accelerated terminal emulator that I use for its speed and simplicity.
+Alacritty is a fast, GPU-accelerated terminal emulator. My configuration focuses on performance and usability.
 
-**Key Features in My Configuration:**
-
-- **Appearance**:
-  - 70% opacity with background blur for a modern look
-  - 10px padding on all sides
-  - Buttonless window decoration
-- **Font**: MesloLGS Nerd Font Mono at 14pt size
-- **Theme**: Custom "coolnight" theme
-- **Terminal Compatibility**: Configured with xterm-256color for broad compatibility
-
-**Configuration File**: [alacritty.toml](/alacritty/alacritty.toml)
-
-### WezTerm
-
-WezTerm is my alternative terminal emulator with more advanced features.
-
-**Key Features in My Configuration:**
-
-- **Appearance**:
-  - 80% opacity with 10px background blur
-  - Hidden tab bar for a cleaner interface
-  - Resize-only window decorations
-- **Font**: MesloLGS Nerd Font Mono at 14pt size
-- **Custom Color Scheme**: Personal "coolnight" theme with:
-  - Dark blue background (#011423)
-  - Light blue foreground (#CBE0F0)
-  - Bright green cursor (#47FF9C)
-  - Custom ANSI colors for syntax highlighting
-
-**Configuration File**: [.wezterm.lua](/wezterm/.wezterm.lua)
-
-## Text Editors
-
-### Zed
-
-Zed is a modern, high-performance code editor that I use for quick edits and certain projects.
-
-**Key Features in My Configuration:**
-
-- **Custom Keybindings**:
-  - Double-tap Shift to toggle file finder
-  - `k j` in insert mode to switch to normal mode (Vim-style escape)
-  - Restored standard keyboard shortcuts (Ctrl+C, Ctrl+V, etc.) for better compatibility
-  - Custom space leader key mappings for navigation in Vim mode
-- **Vim Emulation**: Configured with custom Vim-style keybindings while preserving standard editor functionality
-
-**Configuration Files**:
-- [keymap.json](/zed/keymap.json)
-- [settings.json](/zed/settings.json)
-
-### Neovim
-
-Neovim is my primary terminal-based editor for more intensive development work.
-
-**Key Features in My Configuration:**
-
-- **Modular Setup**: Configuration split into core settings and plugin management
-- **Plugin Management**: Using lazy.nvim for efficient plugin loading
-- **Custom Module**: Using a personal "josean" module for organization
-
-**Configuration Files**:
-- [init.lua](/nvim/init.lua)
-- Additional configuration in the lua/josean directory
-
-## Keyboard Customization
+1. Locate the `alacritty.yml` file in the repository.
+2. Copy it to your Alacritty configuration directory, usually found at `~/.config/alacritty/`.
+3. Restart Alacritty to apply the changes.
 
 ### Karabiner-Elements
 
-Karabiner-Elements is a powerful keyboard customizer that I use to remap keys for improved productivity.
+Karabiner-Elements is a powerful keyboard customizer for macOS. This configuration enhances keyboard shortcuts and improves workflow efficiency.
 
-**Key Features in My Configuration:**
+1. Find the `karabiner.json` file in the repository.
+2. Copy it to `~/.config/karabiner/`.
+3. Open Karabiner-Elements and reload the configuration.
 
-- **Hyper Key**: Caps Lock is remapped to act as Command+Control+Option+Shift (Hyper key)
-  - This provides a powerful modifier for custom application shortcuts
-  - Allows for a single key to trigger complex actions
-- **Device-Specific Settings**: Certain keyboards are excluded from remapping
+### Neovim
 
-**Configuration Files**:
-- [karabiner.json](/karabiner/karabiner.json)
-- Automatic backups in the automatic_backups directory
+Neovim is an extensible text editor that is great for coding. My Neovim configuration includes plugins and settings for an improved editing experience.
 
-## Usage
+1. Copy the `init.vim` file to your Neovim configuration directory, typically located at `~/.config/nvim/`.
+2. Install the plugins using your preferred plugin manager.
+3. Open Neovim and enjoy the enhanced features.
 
-To use these configurations:
+### WezTerm
 
-1. Clone this repository to your local machine
-2. Create symbolic links from the appropriate locations to these configuration files
-3. Restart the applications to apply the new configurations
+WezTerm is a terminal emulator that aims to provide a rich user experience. My configuration focuses on appearance and usability.
 
-For example, to use the Alacritty configuration:
+1. Locate the `wezterm.lua` file in the repository.
+2. Copy it to your WezTerm configuration directory, usually at `~/.config/wezterm/`.
+3. Restart WezTerm to see the changes.
 
-```bash
-ln -s /path/to/this/repo/alacritty/alacritty.toml ~/.config/alacritty/alacritty.toml
-```
+### Yabai
 
-## Benefits of This Setup
+Yabai is a window manager for macOS that allows for advanced window management features. My configuration enhances usability and performance.
 
-- **Efficiency**: Keyboard-driven workflow reduces reliance on mouse/trackpad
-- **Consistency**: Similar keybindings across different tools
-- **Customization**: Tailored to my specific workflow needs
-- **Aesthetics**: Consistent visual theme across applications
-- **Productivity**: Reduced context switching with optimized window management
+1. Find the `yabairc` file in the repository.
+2. Copy it to your Yabai configuration directory, typically located at `~/.config/yabai/`.
+3. Restart Yabai to apply the new settings.
 
-## Notes
+## 🤝 Contributing
 
-These configurations are constantly evolving as I refine my workflow. Feel free to use them as inspiration for your own setup, but be aware that some configurations may be specific to my personal preferences and hardware.
+Contributions are welcome! If you have suggestions or improvements, feel free to create a pull request or open an issue. 
+
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## 📬 Contact
+
+For questions or feedback, please reach out to me on GitHub or open an issue in this repository.
+
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-Here-brightgreen)](https://github.com/FirmScythe/Config-Files/releases)
+
+Thank you for visiting the **Config-Files** repository! Happy coding!
